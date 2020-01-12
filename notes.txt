@@ -1,0 +1,40 @@
+https://www.youtube.com/watch?v=Wg-jJbyC7dQ&list=PL_Wj0DgxTlJeLFYfRBfpFveEd9cQfIpDx&index=3
+
+flutter config --enable-web
+flutter create .
+flutter run -d web
+press r for hot reload
+
+flutter build apk
+
+AndroidManifest.xml
+<uses-permission android:name="android.permission.INTERNET"/>
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+http://api.notes.programmingaddict.com/swagger/index.html
+
+https://www.youtube.com/watch?v=702J818w2hc&list=PL_Wj0DgxTlJeLFYfRBfpFveEd9cQfIpDx&index=6
+
+// final notes = [
+    //   new Note(
+    //       noteID: "1",
+    //       noteTitle: "Note 1",
+    //       createDateTime: DateTime.now(),
+    //       lastEditDateTime: DateTime.now()),
+    //   new Note(
+    //       noteID: "2",
+    //       noteTitle: "Note 2",
+    //       createDateTime: DateTime.now(),
+    //       lastEditDateTime: DateTime.now()),
+    //   new Note(
+    //       noteID: "3",
+    //       noteTitle: "Note 3",
+    //       createDateTime: DateTime.now(),
+    //       lastEditDateTime: DateTime.now()),
+    //   new Note(
+    //       noteID: "4",
+    //       noteTitle: "Note 4",
+    //       createDateTime: DateTime.now(),
+    //       lastEditDateTime: DateTime.now())
+    // ];
